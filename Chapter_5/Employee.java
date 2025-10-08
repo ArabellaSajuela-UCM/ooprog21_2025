@@ -28,7 +28,7 @@ return employeeNumber;
     
 public void setEmployeeNumber(int employeeNumber) {
 if (employeeNumber < 1 || employeeNumber > MAX_EMPLOYEE_NUMBER) {
-throw new IllegalArgumentException("Employee number must be between 1 and " + MAX_EMPLOYEE_NUMBER)
+throw new IllegalArgumentException("Employee number must be between 1 and " + MAX_EMPLOYEE_NUMBER);
    }
 this.employeeNumber = employeeNumber;
     }
@@ -59,6 +59,6 @@ return MAX_EMPLOYEE_NUMBER;
     }
     
 public double getMaxRate() {
-eturn MAX_RATE;
+return MAX_RATE;
     }
 }
